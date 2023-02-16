@@ -21,18 +21,55 @@
 /* BASE STYLES
 /*******************************************/
 html {
-    font-size: 62.5%
+    font-size: 62.5%;
 }
 
 body {
-    text-align:center ;
+    font-family: Gellix, sans-serif;
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+header, .leftHeader, .leftHeader ul, .rightHeader{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+header section{
+    flex-basis: 50%;
+}
 
+.leftHeader li a, .leftHeader li, #loginLink{
+    text-decoration: none;
+    list-style: none;
+    color: #65816d;
+}
+.leftHeader ul{
+    padding: 0, 0, 0, 20px;
+}
+
+.rightHeader{
+    justify-content: flex-end;
+}
+
+header button{
+    background-color: #22ad01;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.leftHeader li a:hover{
+    color:#22ad01;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
