@@ -39,11 +39,15 @@ header, .leftHeader, .leftHeader ul, .rightHeader{
     font-size: 16px;
     font-weight: 500;
 }
+header{
+    border-bottom: .02px solid #97c2a3;
+}
+
 header section{
     flex-basis: 50%;
 }
 
-.leftHeader li a, .leftHeader li, #loginLink{
+.leftHeader li a, .leftHeader li, #loginLink, .underHeader li a, .underHeader li{
     text-decoration: none;
     list-style: none;
     color: #65816d;
@@ -70,6 +74,41 @@ header button{
 .leftHeader li a:hover{
     color:#22ad01;
 }
+.underHeader{
+    font-size: 16px;
+}
+.underHeader ul{
+    display: flex;
+    gap: 15px;
+    padding: 0;
+}
+
+.underHeader li a:hover{
+    color: #003c2f;
+}
+
+h1{
+    color:#003c2f;
+    font-size: 60px;
+    text-align: center;
+    margin: 0 25%;
+}
+
+.toggleContainer{
+    text-align: center;
+}
+
+.toggleContainer input{
+    -webkit-appearance: none;
+    position: relative;
+    width: 300px;
+    height: 65px;
+    border-radius: 30px;
+    background-color:#f0f5f0 ;
+
+
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
