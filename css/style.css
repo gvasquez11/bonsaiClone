@@ -76,11 +76,16 @@ header button{
 }
 .underHeader{
     font-size: 16px;
+   
 }
 .underHeader ul{
     display: flex;
     gap: 15px;
     padding: 0;
+}
+
+.underHeader li a{
+    color:rgba(101, 129, 109, .7);
 }
 
 .underHeader li a:hover{
@@ -105,10 +110,104 @@ h1{
     height: 65px;
     border-radius: 30px;
     background-color:#f0f5f0 ;
-
-
 }
 
+.belowMain{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    color: #003c2f;
+    font-weight: 700;
+    margin: 8% 10%;
+}
+
+.starter, .professional, .business{
+    display: flex;
+    flex-basis: 32%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+    border-radius: 25px;
+    margin: 0 70px;
+    
+}
+
+.business p, .professional p, .starter p{
+    margin-top: 0;
+}
+.business h4, .professional h4, .starter h4{
+    margin-bottom: 10px;
+}
+
+.month{
+    font-size: 15px;
+    color: rgba(101, 129, 109, .7);
+}
+
+.forFreeButton{
+    height: 50px;
+    width: 200px;
+    background-color: #22ad01;
+    border-radius: 25px;
+    border: 1px solid white;
+    color: white;
+}
+
+.paraLine{
+    padding: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(101, 129, 109, .7);    
+}
+
+.lineClass{
+    height: 1px;
+    width: 250px;
+    background-color: rgba(145, 179, 155, 0.7);
+}
+
+.listOfItems{
+    font-size: 15px;
+    list-style: none;
+    padding: none;
+    font-weight: 500;
+}
+.listOfItems li{
+    padding: 10px 0;
+}
+
+.listOfItems img{
+    padding-right: 15px;
+}
+
+
+.belowMain ul{
+    text-align: left;
+    width: 100%;
+}
+
+.bottomForFree{
+    margin: 25px 10px 40px 10px;
+}
+.professional{
+    position: relative;
+    background-color: white;
+}
+
+
+.orangeBack{
+    background-color:#ee8146;
+    height: 106%;
+    width: 103%;
+    position: absolute;
+    z-index: -1;
+    top: -40px;
+    border-radius: 25px;
+    font-size: 16px;
+    color: white;
+    padding-top: 10px;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
