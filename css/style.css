@@ -123,13 +123,14 @@ h1{
 
 .starter, .professional, .business{
     display: flex;
-    flex-basis: 32%;
+    flex-basis: 23%;
     flex-direction: column;
     align-items: center;
     text-align: center;
     box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
     border-radius: 25px;
-    margin: 0 70px;
+    margin: 0 20px;
+    
     
 }
 
@@ -207,6 +208,49 @@ h1{
     font-size: 16px;
     color: white;
     padding-top: 10px;
+}
+
+.nextLevel{
+    font-size: 25px;
+    color:#003c2f;
+}
+
+.nextLevelContainer{
+    display: flex;
+    margin: 0 15px;
+    justify-content: center;
+    gap: 25px;
+    
+}
+
+.nextLevel h2{
+    text-align: center;
+    margin: 0 35%;
+    margin-bottom: 50px;
+    
+}
+
+.nextLevelContainer section{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 23%;
+    border: 1px solid #d3dcd4;
+    border-radius: 35px;
+    padding: 20px;
+    font-size: 20px;
+    height: 350px;
+    position: relative;
+    padding-left: 40px;
+}
+
+.bottomRight{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    right: 0;
+    padding-right: 10px;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 /******************************************
