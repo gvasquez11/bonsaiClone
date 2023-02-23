@@ -38,22 +38,70 @@ header, .leftHeader, .leftHeader ul, .rightHeader{
     gap: 10px;
     font-size: 16px;
     font-weight: 500;
+    margin: 0 10%;
 }
-header{
-    border-bottom: .02px solid #97c2a3;
+#lineUnderHeader{
+    height: .5px;
+    width: 64%;
+    background-color:  #97c2a3;
+    margin: 10px 18%;
 }
+
+.productDropDown{
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 20px 10px -15px rgb(0 0 0 / 10%);
+    z-index: 1;
+    left: 0;
+    width: 100%;
+
+    /* padding-left: 350px;
+    padding-top: 20px; */
+}
+
+.productWrapper:hover .productDropDown{
+    display: flex;
+    background-color: white;
+    height: 300px;
+    /* width: 100%; */
+    padding-left: 350px;
+    padding-top: 20px;
+    margin-top: 25px;
+    /* gap: 15%; */
+}
+
+.innerWrapper, .innerWrapper ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: start;
+    gap: 10px;
+    flex-basis: 20%;
+    
+}
+.innerWrapper > a{
+    padding-bottom: 10px;
+    padding-top: 28px;
+}
+
 
 header section{
     flex-basis: 50%;
 }
 
-.leftHeader li a, .leftHeader li, #loginLink, .underHeader li a, .underHeader li{
+.leftHeader li a, .leftHeader li, #loginLink, .underHeader li a, .underHeader li, .anchorColor{
     text-decoration: none;
     list-style: none;
     color: #65816d;
 }
+.boldGreen{
+    color: #003c2f;
+    font-weight: bold;
+}
+
 .leftHeader ul{
-    padding: 0, 0, 0, 20px;
+    padding-inline-start:0
 }
 
 .rightHeader{
@@ -76,6 +124,7 @@ header button{
 }
 .underHeader{
     font-size: 16px;
+    margin: 0 18%;
    
 }
 .underHeader ul{
