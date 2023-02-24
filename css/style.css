@@ -47,7 +47,7 @@ header, .leftHeader, .leftHeader ul, .rightHeader{
     margin: 10px 18%;
 }
 
-.productDropDown{
+.productDropDown, .industryDropDown{
     display: none;
     position: absolute;
     background-color: white;
@@ -60,7 +60,7 @@ header, .leftHeader, .leftHeader ul, .rightHeader{
     padding-top: 20px; */
 }
 
-.productWrapper:hover .productDropDown{
+.productWrapper:hover .productDropDown, .industriesWrapper:hover .industryDropDown{
     display: flex;
     background-color: white;
     height: 300px;
