@@ -341,6 +341,16 @@ h1{
     background-color:#9fb8a6;
 }
 
+.question-inner{
+display: flex;
+justify-content: space-between;
+}
+
+.question-inner img{
+    padding-right: 130px;
+}
+
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
