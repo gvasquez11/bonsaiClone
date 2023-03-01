@@ -302,6 +302,45 @@ h1{
     font-weight: 600;
 }
 
+.faq{
+    margin-top: 100px;
+    display: flex;
+    font-size: 20px;
+    color: #003c2f;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.right-faq{
+    position: absolute;
+    right: -150px;
+
+}
+.right-faq img{
+    
+    
+    
+}
+
+.left-faq{
+    width: 40%;
+    margin-left: 20%;
+}
+.question{
+    font-size: 15px;
+}
+.answer{
+    color: #65816d;
+    padding: 15px 120px 15px 0;
+}
+
+.bottomLine{
+    width: 640px;
+    height: .5px;
+    background-color:#9fb8a6;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
