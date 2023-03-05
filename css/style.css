@@ -350,7 +350,9 @@ justify-content: space-between;
     padding-right: 130px;
 }
 
-
+.reviews{
+    margin-top: 5%;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
