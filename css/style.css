@@ -317,11 +317,6 @@ h1{
     right: -150px;
 
 }
-.right-faq img{
-    
-    
-    
-}
 
 .left-faq{
     width: 40%;
@@ -330,9 +325,10 @@ h1{
 .question{
     font-size: 15px;
 }
-.answer{
+.answer, .answer2, .answer3, .answer4{
     color: #65816d;
     padding: 15px 120px 15px 0;
+    display: inline-block;
 }
 
 .bottomLine{
@@ -353,6 +349,25 @@ justify-content: space-between;
 .reviews{
     margin-top: 5%;
 }
+
+.arrowIMG, .arrowIMG2, .arrowIMG3, .arrowIMG4{
+ transform: scaleY(-1);
+}
+
+.arrowIMG:hover, .arrowIMG2:hover, .arrowIMG3:hover, .arrowIMG4:hover{
+    cursor: pointer;
+}
+
+.toggleArrow, .toggleArrow2, .toggleArrow3, .toggleArrow4{
+    transform: scaleY(1);
+}
+
+.toggleAnswer, .toggleAnswer2, .toggleAnswer3, .toggleAnswer4{
+    display: none;
+}
+
+
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
