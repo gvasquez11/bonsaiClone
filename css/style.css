@@ -40,6 +40,12 @@ header, .leftHeader, .leftHeader ul, .rightHeader{
     font-weight: 500;
     margin: 0 10%;
 }
+
+.rightHeader{
+    z-index: 1;
+}
+
+
 #lineUnderHeader{
     height: .5px;
     width: 64%;
@@ -55,20 +61,24 @@ header, .leftHeader, .leftHeader ul, .rightHeader{
     z-index: 1;
     left: 0;
     width: 100%;
+    
 
     /* padding-left: 350px;
     padding-top: 20px; */
 }
 
-.productWrapper:hover .productDropDown, .industriesWrapper:hover .industryDropDown{
+.productWrapper:hover .productDropDown, .industriesWrapper:hover .industryDropDown, .productDropDown:hover{
     display: flex;
     background-color: white;
     height: 300px;
     /* width: 100%; */
     padding-left: 350px;
-    padding-top: 20px;
+    padding-top: 15px;
     margin-top: 25px;
     /* gap: 15%; */
+    margin: -.00px;
+    
+    
 }
 
 .innerWrapper, .innerWrapper ul{
@@ -347,7 +357,7 @@ justify-content: space-between;
 }
 
 .reviews{
-    margin-top: 5%;
+    margin: 5% 0;
 }
 
 .arrowIMG, .arrowIMG2, .arrowIMG3, .arrowIMG4{
@@ -387,6 +397,73 @@ justify-content: space-between;
     
 }
 
+.testimonials{
+    max-height: 900px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #003c2f;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 10%;
+}
+
+.row1, .row2, .row3, .row4{
+    display: flex;
+    justify-content: space-around;
+}
+
+.innerTestimonial{
+    background-color: #f0f5f0;
+    border-radius: 10px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.lightGreen{
+    color: #65816d;
+}
+
+.support{
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+}
+
+.support h2{
+    color: #003c2f;
+    font-size: 30px;
+}
+
+
+.imgContainer{
+     
+}
+
+.imgContainer img{
+    width: 110%;
+}
+
+.rightSupport, .leftSupport{
+    display: flex;
+    flex-basis: 50%;
+    
+    padding: 10%;
+}
+
+.rightSupport{
+    padding-left: 3%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.leftSupport{
+    padding-right: 3%;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
